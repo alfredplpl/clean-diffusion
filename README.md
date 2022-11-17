@@ -73,6 +73,9 @@ Please read ldm_files folder. I refer to [stable-diffusion](https://github.com/r
 
 TBA
 
+# Acknowledgement
+> Standing on the shoulders of giants
+
 # Citations
 
 ```bibtex
