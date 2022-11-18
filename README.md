@@ -10,9 +10,27 @@ The model is more powerful than this global version.
 
 If you **CANNOT UNDERSTAND THESE WORDS**, I recommend that **YOU SHOULD NOT USE ALL OF DIFFUSION MODELS** what have great powers.
 
+# Getting Started
+You would be able to use Clean Diffusion by the following code soon.
+
+```python
+from diffusers import StableDiffusionPipeline
+import torch
+
+model_id = "alfredplpl/clean-diffusion"
+pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16, revision="fp16")
+pipe = pipe.to("cuda")
+
+prompt = "A girl by Mucha."
+image = pipe(prompt).images[0]
+    
+image.save("girl.png")
+```
+
 # Tuning
 Clean Diffusion is less powerful than Stable Diffusion.
-However, I recommend to tune Clean Diffusion like Stable Diffusion because Clean Diffusion is Apache 2.0 License.
+Therefore, I recommend to tune Clean Diffusion like Stable Diffusion 
+because Clean Diffusion of the network architecture and Stable Diffusion of the network architecture are same.
 And I repeat the words before I explain the detail.
 
 > With great power comes great responsibility.
@@ -57,9 +75,9 @@ TBA
 - Popeye the Sailor Meets Sindbad the Sailor
 
 ### Tiny training images
-I will open all training images because these images are public domain.
+I would like to the all training raw images because these images are public domain.
 However, these images are huge (70GB+).
-Therefore, I will open the tiny version like this.
+Therefore, I have opened the tiny version like this.
 
 ![images](images/sample_tile.jpg)
 
