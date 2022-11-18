@@ -35,11 +35,17 @@ TBA
 I proof that clean diffusion is clean by following explanation.
 
 ## Legal information
-Clean Diffusion is legal and ethically.
+TBA
+
+### Training
+Clean Diffusion is legal and ethical.
 
 Clean Diffusion is MADE IN JAPAN.
 Therefore, Clean Diffusion is subject to [Japanese copyright laws](https://en.wikipedia.org/wiki/Copyright_law_of_Japan).
 
+TBA
+
+### Generating
 
 TBA
 
@@ -67,7 +73,7 @@ Therefore, I will open the tiny version like this.
 
 TBA
 
-## Tranning text-image pares
+## Training text-image pairs
 TBA
 
 ## Trainning code and config
