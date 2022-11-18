@@ -53,9 +53,11 @@ TBA
 ### Tiny training images
 I will open all training images because these images are public domain.
 However, these images are huge (70GB+).
-Therefore, I will open the tiny version.
+Therefore, I will open the tiny version like this.
 
-TBA
+![images](images/sample_tile.jpg)
+
+[Tiny Images](https://1drv.ms/u/s!ApxVlgxlqLRliLpSC58y5qyAlt52tQ?e=3Yfwbt)
 
 ### Training Process of VAE
 ![gt](images/inputs_gs-000001_e-000000_b-000002.png)
